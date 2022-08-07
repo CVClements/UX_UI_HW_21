@@ -134,7 +134,31 @@ main.container {
     gap: 1rem;
 
 }
+
 .map-result :last-child {
     margin: 1rem 1rem 1rem auto;
     height: 2.8rem;
+}
+
+.shop-carousel {
+    margin: 0 5rem 1rem 5rem;
+    width: calc(100% - 10rem);
+    display: flex;
+    gap: 3rem;
+}
+
+.sub-title {
+    margin-left: 5rem;
+}
+
+.buybtn {
+    background: orange;
+    border-radius: 1rem;
+    box-shadow: 0.1rem 0 0.2rem 0 rgba(0, 0, 0, 0.2), 0.15rem 0 0.3rem 0 rgba(0, 0, 0, 0.19);
+    border-style: hidden;
+    font-size: 2.5rem;
+    margin: 2rem auto;
+    padding: 1rem;
+    display: block;
+
 }
