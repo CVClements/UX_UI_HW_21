@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -6,6 +7,7 @@
     <title>Disc World</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <div class="sidebar">
         <div>
@@ -16,7 +18,7 @@
         </div>
         <div>
             <a href="/">
-                <img src="images/Learn.svg" alt="Learn"> 
+                <img src="images/Learn.svg" alt="Learn">
             </a>
         </div>
         <div>
@@ -32,7 +34,19 @@
 
     </div>
     <main class="container">
-        <img src="images/p1.jpg" alt="puppy" height="1600px">
+        <div class="title">
+            <p>Go Throw</p>
+        </div>
+        <div class="searchbar">
+            <p>Enter a zip code or city and state to find a disc golf course.</p>
+            <input type="text" name="searchbar" id="msearch">
+        </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d48664.07154113967!2d-111.94274240506746!3d40.331153828325355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sdisc%20golf%20near%20me!5e0!3m2!1sen!2sus!4v1659840918485!5m2!1sen!2sus"
+            class="map-frame" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
     </main>
 </body>
+
 </html>
